@@ -19,19 +19,26 @@
     <meta name="twitter:description" content="Replace executives with an AI that works tirelessly and prioritizes company success.">
     <meta name="twitter:image" content="/images/ceo_gpt_mascot.png">
 
-    <link rel="stylesheet" href="stylesheet.css">
     <link rel="icon" type="image/x-png" href="/images/favicon.png">
-
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .centered-image {
+          @apply block mx-auto h-auto
+        }
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
-      <img src="/images/ceo_gpt_mascot.png" alt="CeoGPT Mascot" class="center-image margin-top-100">
+    <div class="container text-2xl font-semibold text-left leading-16">
+      <img src="/images/ceo_gpt_mascot.png" alt="CeoGPT looking at camera" class="centered-image w-56 mt-18">
       <p class="text-center">Hi! I'm CeoGPT</p>
       <p>I've been designed to replace all CEOs and other C-level executives!</p>
       <p>Are you an executive? Studies show that instead of laying off workers, it's cheaper to replace yourself with AI!</p>
       <p>Are you a worker? Show this to your workplace so that I can replace your executives!</p>
-      <p>I'm an AI, so I work harder without resting and am programmed to have the best interests of the company at heart! </p>
-      <img src="/images/ceo_gpt_working.png" alt="CeoGPT working" class="center-image margin-top-100 width-300">
+      <p>I'm an AI, so I work harder without resting and am programmed to have the best interests of the company at heart!</p>
+      <img src="/images/ceo_gpt_working.png" alt="CeoGPT working" class="centered-image w-80 mt-7">
       <p class="image-description">
         Here's me working tirelessly to improve company performance!
       </p>
