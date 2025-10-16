@@ -1,4 +1,5 @@
-# [CeoGPT](https://ceo-gpt.pages.dev)
+# <a href="https://ceo-gpt.pages.dev" target="_blank">CeoGPT</a>
+
 
 <img src="https://raw.githubusercontent.com/noreebia/ceo-gpt/refs/heads/main/images/ceo_gpt_mascot.png" alt="CeoGPT" width="250" style="display: block; margin: 3rem auto; border-radius: 1rem"/>
 
@@ -9,4 +10,4 @@ the board
 for no reason at all. Now, with CeoGPT, you can replace your entire C-suite with a single AI model that does everything
 they do, but better.
 
-[ceo-gpt.pages.dev](https://ceo-gpt.pages.dev)
+<a href="https://ceo-gpt.pages.dev" target="_blank">ceo-gpt.pages.dev</a>
