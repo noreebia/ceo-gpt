@@ -41,6 +41,14 @@ body {
 
 p {
     /*text-transform: uppercase;*/
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
+
+    @media only screen and (min-width: 640px) {
+        text-align: justify;
+    }
+}
+
+.text-center {
+    text-align: center;
 }
