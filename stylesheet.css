@@ -4,17 +4,13 @@
     margin: 0 auto; /* Center the container */
     padding: 20px;
     box-sizing: border-box; /* Include padding in width calculation */
-}
 
-@media only screen and (max-width: 768px) {
-    .container {
+    @media only screen and (max-width: 768px) {
         width: 95%; /* Adjust width for smaller screens */
         padding: 15px;
     }
-}
 
-@media only screen and (max-width: 480px) {
-    .container {
+    @media only screen and (max-width: 480px) {
         width: 100%; /* Full width on very small screens */
         padding: 10px;
     }
@@ -25,4 +21,9 @@
     height: auto;
     display: block;
     margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    font-size: 2rem;
 }
