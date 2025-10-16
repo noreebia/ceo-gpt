@@ -23,6 +23,11 @@
     <link rel="stylesheet" href="stylesheet.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <style type="text/tailwindcss">
+      @layer base {
+        a {
+          @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
+        }
+      }
       @layer utilities {
         .centered-image {
           @apply block mx-auto h-auto
@@ -31,7 +36,7 @@
     </style>
   </head>
   <body>
-    <div class="container text-2xl font-semibold text-left leading-16">
+    <div class="container text-2xl font-semibold text-left leading-16 mb-12">
       <img src="/images/ceo_gpt_mascot.png" alt="CeoGPT looking at camera" class="centered-image w-56 mt-18">
       <p class="text-center">Hi! I'm CeoGPT</p>
       <p>I've been designed to replace all CEOs and other C-level executives!</p>
@@ -39,8 +44,16 @@
       <p>Are you a worker? Show this to your workplace so that I can replace your executives!</p>
       <p>I'm an AI, so I work harder without resting and am programmed to have the best interests of the company at heart!</p>
       <img src="/images/ceo_gpt_working.png" alt="CeoGPT working" class="centered-image w-80 mt-7">
-      <p class="image-description">
+      <p class="image-description mb-7">
         Here's me working tirelessly to improve company performance!
+      </p>
+      <p>
+        <a href="https://www.trueup.io/layoffs" target="_blank">158,681 workers have been laid off</a>
+        so far in 2025 - it's time to replace executives instead of workers!
+      </p>
+      <img src="/images/ceo_gpt_presenting.png" alt="CeoGPT presenting" class="centered-image w-80 mt-7">
+      <p class="image-description">
+        Look how effectively I am giving this presentation
       </p>
     </div>
   </body>
