@@ -10,4 +10,6 @@ the board
 for no reason at all. Now, with CeoGPT, you can replace your entire C-suite with a single AI model that does everything
 they do, but better.
 
-<a href="https://ceo-gpt.pages.dev" target="_blank">ceo-gpt.pages.dev</a>
+<a href="https://ceo-gpt.pages.dev" target="_blank">Actual website</a>
+
+<a href="https://www.reddit.com/r/webdev/comments/1oahwsk/ceogpt_an_ai_to_replace_ceos_showoff_saturdayhumor" target="_blank">This website was also shared on Reddit (r/webdev)</a>
